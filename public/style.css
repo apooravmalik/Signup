@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: Montserrat;
+}
+
+.container{
+    
+    border: 12px;
+    border-color: white;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    align-items: center;
+}
+h1{
+    color: white;
+    border-bottom: 10px solid purple;
+    margin-bottom: 43px;
+    padding:13px, 0;
+    
+}
+.form-group{
+    width: 100%;
+    border-bottom: 2px solid purple;
+}
+.form-group input{  
+    background: none;
+    width: 75%;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    outline:none;
+    color: white;
+}
+.btn{
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    outline: none; 
+    margin: 12px 0;
+    padding: 10px 21px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    font-weight: bold;
+    left: 133px;
+}
+.userIcon{
+    color: white;
+}
+.userEmail{
+    color: white;
+}
+.form-group i{ 
+    width: 25px; 
+    text-align: center;
+}
+.btn:hover{
+    opacity: 0.5;
+    color: purple; 
+    background: white; }
